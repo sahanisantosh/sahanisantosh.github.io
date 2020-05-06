@@ -1,0 +1,45 @@
+.tracking-in-expand{
+  animation:tracking-in-expand 6s cubic-bezier(.215,.61,.355,1.000) both;
+  text-align: center;
+  color: #0388fc;
+  top: 50%;
+  position: float;
+}
+@keyframes tracking-in-expand{
+  0%
+  {
+    letter-spacing:-.5em;
+    opacity:0
+  }
+  40%
+  {
+    opacity:.6
+  }
+  100%
+  {
+    opacity:1
+  }
+}
+.profile_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.profile_image  img{
+  width: auto;
+  height: 100%;
+  margin-left: -100px;
+
+}
+
+.footer img{
+  position: fixed;
+  bottom: 0;
+  margin-left: -50px;
+  margin-right: 0px;
+}
